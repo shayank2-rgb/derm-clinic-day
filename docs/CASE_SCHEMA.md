@@ -13,8 +13,8 @@ Each case is one JSON file in `src/data/cases/`. Engine behavior reads the share
 | `urgency` | `routine`, `high`, `critical` | Priority and strike rules |
 | `historyAnswers` | question-to-answer map | Revealed only when the player asks that question |
 | `examFindings` | maneuver-to-finding map | Revealed after each exam maneuver |
-| `image` | file, status, alt | Local image or labeled placeholder; `status` is `real` or `needs_image` |
-| `imageStatus` | `real` or `needs_image` | Explicit image status used by review and reporting |
+| `image` | file, status, alt | Local image; active cases use `real`, drafts may use `needs_image` |
+| `imageStatus` | `real` or `needs_image` | Explicit image status used by review and reporting; every indexed playable case must be `real` |
 | `correctMorphology` | string array | Accepted primary lesion descriptions |
 | `acceptableDifferential` | string array | Accepted working diagnosis choices |
 | `tests` | name, result, minutes, indicated | Workup menu and value scoring |

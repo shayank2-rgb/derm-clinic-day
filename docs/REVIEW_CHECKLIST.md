@@ -1,10 +1,10 @@
 # Dermatologist review checklist
 
-All 40 cases are marked `needsReview: true`. The cases are original, simplified educational scenarios. A board-certified dermatologist should review every diagnosis, clue, differential, test choice/result, treatment rationale, contraindication, disposition, urgency tier, and teaching pearl before learner distribution. Particular attention is needed for emergency escalation, medication safety, biopsy technique, and pregnancy considerations.
+All 28 active cases are marked `needsReview: true`. They are fictional teaching scenarios paired with independent supplied photographs. A board-certified dermatologist should review every diagnosis, clue, differential, test choice/result, treatment rationale, contraindication, disposition, urgency tier, and teaching pearl before learner distribution. Particular attention is needed for emergency escalation, medication safety, biopsy technique, and pregnancy considerations.
 
-## Flagged cases
+## Active cases
 
-acne-vulgaris, atopic-dermatitis, plaque-psoriasis, seborrheic-dermatitis, tinea-corporis, verruca-vulgaris, molluscum-contagiosum, rosacea, hidradenitis-suppurativa, acute-urticaria, allergic-contact-dermatitis, irritant-contact-dermatitis, tinea-pedis, seborrheic-keratosis, androgenetic-alopecia, onychomycosis, actinic-keratosis, basal-cell-carcinoma, cutaneous-squamous-cell-carcinoma, melanoma, atypical-nevus, lentigo-maligna, early-sjs-ten, dress, pemphigus-vulgaris, bullous-pemphigoid, dermatomyositis, cutaneous-lupus, mycosis-fungoides, necrotizing-infection, calciphylaxis, drug-eruption, stasis-dermatitis, scabies, impetigo, alopecia-areata, pityriasis-rosea, guttate-psoriasis, squamous-cell-carcinoma-in-situ, melanoma-in-situ.
+actinic-keratosis, atypical-nevus, basal-cell-carcinoma, bullous-pemphigoid, calciphylaxis, cutaneous-lupus, dress, dermatomyositis, drug-eruption, early-sjs-ten, hidradenitis-suppurativa, melanoma, molluscum-contagiosum, mycosis-fungoides, necrotizing-infection, pemphigus-vulgaris, rosacea, seborrheic-keratosis, cutaneous-squamous-cell-carcinoma, tinea-corporis, acute-urticaria, acne-vulgaris, atopic-dermatitis, cellulitis, allergic-contact-dermatitis, plaque-psoriasis, seborrheic-dermatitis, verruca-vulgaris.
 
 ## Review record
 
