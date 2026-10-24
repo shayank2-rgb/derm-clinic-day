@@ -7,27 +7,27 @@
     "pregnancyRelevant": false,
     "context": "geriatric"
   },
-  "chiefComplaint": "A stuck-on waxy spot on the back",
-  "lesionSite": "back",
+  "chiefComplaint": "A rough brown spot on the trunk catches on clothing.",
+  "lesionSite": "Trunk",
   "hiddenDiagnosis": "Seborrheic keratosis",
   "urgency": "routine",
   "historyAnswers": {
     "Onset and duration": "The change began gradually over several weeks.",
-    "Itch versus pain": "There is mild itch and no disproportionate pain.",
+    "Itch versus pain": "No spontaneous pain, itch, or bleeding.",
     "New medications": "No new medication in the past two months.",
     "Sun exposure and tanning": "Outdoor exposure is intermittent; no tanning bed use.",
-    "Personal and family skin cancer history": "No personal skin cancer; family history reviewed.",
+    "Personal and family skin cancer history": "No personal history of skin cancer; compare with the patient’s other lesions.",
     "Immunosuppression": "No known immunosuppression.",
     "Prior treatments": "Over-the-counter moisturizer gave little relief.",
     "Occupation and hobbies": "No clear occupational exposure identified.",
     "Pregnancy and contraception status": "Pregnancy possibility and goals should be reviewed before teratogenic therapies.",
-    "Systemic symptoms": "No fever or systemic symptoms.",
-    "Focused clue": "stuck-on waxy papule with comedo-like openings"
+    "Systemic symptoms": "No systemic symptoms.",
+    "Focused clue": "The lesion has been stable for years and is asymptomatic except for friction from clothing."
   },
   "examFindings": {
-    "General appearance": "Alert and conversant; vital signs must be checked in real practice.",
-    "Focused lesion exam": "Stuck-on waxy papule with comedo-like openings.",
-    "Full skin exam": "No additional abnormality found on this maneuver.",
+    "General appearance": "Fictional teaching patient; assess vital signs and overall appearance in real practice.",
+    "Focused lesion exam": "A sharply demarcated, waxy, brown papule with a raised cerebriform “stuck-on” surface.",
+    "Full skin exam": "Assess distribution and extent beyond the pictured site; no systemic symptoms.",
     "Mucosal exam": "No additional abnormality found on this maneuver.",
     "Nails and hair": "No additional abnormality found on this maneuver.",
     "Lymph nodes": "No additional abnormality found on this maneuver.",
@@ -36,19 +36,20 @@
     "Dermoscopy": "No additional abnormality found on this maneuver."
   },
   "image": {
-    "file": "seborrheic-keratosis.svg",
-    "status": "needs_image",
-    "alt": "Original vector placeholder, not a clinical photograph: a generic abstract lesion swatch, site back. No patient or diagnosis is depicted."
+    "file": "seborrheic-keratosis.webp",
+    "status": "real",
+    "alt": "Independent teaching photograph, not the fictional patient’s record: A sharply demarcated, waxy, brown papule with a raised cerebriform “stuck-on” surface.",
+    "credit": "User-supplied teaching image; permission confirmed by the user."
   },
-  "imageStatus": "needs_image",
+  "imageStatus": "real",
   "correctMorphology": [
     "Papule",
-    "Papule"
+    "Scale"
   ],
   "acceptableDifferential": [
     "Seborrheic keratosis",
-    "eczema",
-    "contact dermatitis"
+    "melanoma",
+    "benign melanocytic nevus"
   ],
   "tests": [
     {
@@ -115,7 +116,7 @@
     }
   ],
   "idealDisposition": "discharge",
-  "teachingPearl": "reassure if typical; biopsy if atypical or changing Reassess if the course changes or red flags emerge.",
+  "teachingPearl": "A typical stuck-on keratotic papule is benign; biopsy or reassess lesions that are atypical, changing, symptomatic, or diagnostically uncertain.",
   "traps": [
     "Anchoring on morphology without asking about timing",
     "Using a potent topical steroid on thin or intertriginous skin",

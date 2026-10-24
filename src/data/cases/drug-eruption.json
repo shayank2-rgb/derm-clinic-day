@@ -7,27 +7,27 @@
     "pregnancyRelevant": false,
     "context": "general"
   },
-  "chiefComplaint": "A widespread rash after a recently started medicine",
-  "lesionSite": "trunk",
+  "chiefComplaint": "A symmetric itchy rash appeared soon after a new medicine was started.",
+  "lesionSite": "Trunk",
   "hiddenDiagnosis": "Morbilliform drug eruption",
   "urgency": "routine",
   "historyAnswers": {
     "Onset and duration": "A new eruption began 9 days after starting a medication.",
-    "Itch versus pain": "There is mild itch and no disproportionate pain.",
-    "New medications": "A recently started medication is a potential culprit; reconcile exact timing.",
+    "Itch versus pain": "Itchy, not painful; ask specifically about skin tenderness and mucosal symptoms.",
+    "New medications": "A new antibiotic was started eight days before onset; document all prescription, over-the-counter, and supplement exposures.",
     "Sun exposure and tanning": "Outdoor exposure is intermittent; no tanning bed use.",
     "Personal and family skin cancer history": "No personal skin cancer; family history reviewed.",
     "Immunosuppression": "No known immunosuppression.",
     "Prior treatments": "Over-the-counter moisturizer gave little relief.",
     "Occupation and hobbies": "No clear occupational exposure identified.",
     "Pregnancy and contraception status": "Pregnancy possibility and goals should be reviewed before teratogenic therapies.",
-    "Systemic symptoms": "No fever or systemic symptoms.",
-    "Focused clue": "symmetric morbilliform rash after a new medication without mucosal or systemic features"
+    "Systemic symptoms": "No fever, facial edema, mucosal erosions, or systemic symptoms.",
+    "Focused clue": "The rash began eight days after starting a new antibiotic; no similar prior eruption."
   },
   "examFindings": {
-    "General appearance": "Alert and conversant; vital signs must be checked in real practice.",
-    "Focused lesion exam": "Symmetric morbilliform rash after a new medication without mucosal or systemic features.",
-    "Full skin exam": "No additional abnormality found on this maneuver.",
+    "General appearance": "Fictional teaching patient; assess vital signs and overall appearance in real practice.",
+    "Focused lesion exam": "A widespread, symmetric erythematous morbilliform maculopapular eruption on the trunk without visible blistering in the supplied close-up.",
+    "Full skin exam": "Assess distribution and extent beyond the pictured site; no fever, facial edema, mucosal erosions, or systemic symptoms.",
     "Mucosal exam": "No additional abnormality found on this maneuver.",
     "Nails and hair": "No additional abnormality found on this maneuver.",
     "Lymph nodes": "No additional abnormality found on this maneuver.",
@@ -36,19 +36,20 @@
     "Dermoscopy": "No additional abnormality found on this maneuver."
   },
   "image": {
-    "file": "drug-eruption.svg",
-    "status": "needs_image",
-    "alt": "Original vector placeholder, not a clinical photograph: a generic abstract lesion swatch, site trunk. No patient or diagnosis is depicted."
+    "file": "drug-eruption.webp",
+    "status": "real",
+    "alt": "Independent teaching photograph, not the fictional patient’s record: A widespread, symmetric erythematous morbilliform maculopapular eruption on the trunk without visible blistering in the supplied close-up.",
+    "credit": "User-supplied teaching image; permission confirmed by the user."
   },
-  "imageStatus": "needs_image",
+  "imageStatus": "real",
   "correctMorphology": [
-    "Patch",
-    "Patch"
+    "Macule",
+    "Papule"
   ],
   "acceptableDifferential": [
     "Morbilliform drug eruption",
-    "eczema",
-    "contact dermatitis"
+    "viral exanthem",
+    "early SJS/TEN"
   ],
   "tests": [
     {
@@ -115,7 +116,7 @@
     }
   ],
   "idealDisposition": "discharge",
-  "teachingPearl": "review timing and red flags; medication plan coordinated with prescriber Reassess if the course changes or red flags emerge.",
+  "teachingPearl": "A simple exanthem often begins days after a new drug; skin pain, dusky lesions, blisters, mucosal disease, or organ symptoms require urgent escalation.",
   "traps": [
     "Anchoring on morphology without asking about timing",
     "Using a potent topical steroid on thin or intertriginous skin",

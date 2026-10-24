@@ -1,33 +1,33 @@
 {
   "id": "mycosis-fungoides",
-  "category": "urgent",
+  "category": "cancer",
   "demographics": {
     "age": 61,
     "sex": "M",
     "pregnancyRelevant": false,
     "context": "general"
   },
-  "chiefComplaint": "Persistent patches on the trunk despite eczema care",
-  "lesionSite": "trunk",
+  "chiefComplaint": "Long-lasting eczema-like patches have not responded as expected to treatment.",
+  "lesionSite": "Trunk",
   "hiddenDiagnosis": "Mycosis fungoides",
-  "urgency": "critical",
+  "urgency": "high",
   "historyAnswers": {
     "Onset and duration": "The change began gradually over several weeks.",
-    "Itch versus pain": "There is mild itch and no disproportionate pain.",
+    "Itch versus pain": "Mild itch; no severe pain.",
     "New medications": "No new medication in the past two months.",
     "Sun exposure and tanning": "Outdoor exposure is intermittent; no tanning bed use.",
     "Personal and family skin cancer history": "No personal skin cancer; family history reviewed.",
     "Immunosuppression": "No known immunosuppression.",
-    "Prior treatments": "Several topical steroid courses gave transient improvement; lesions return in the same areas.",
+    "Prior treatments": "Several courses of topical treatment gave incomplete or temporary improvement.",
     "Occupation and hobbies": "No clear occupational exposure identified.",
     "Pregnancy and contraception status": "Pregnancy possibility and goals should be reviewed before teratogenic therapies.",
-    "Systemic symptoms": "No fever or systemic symptoms.",
-    "Focused clue": "persistent patch-stage plaques in bathing-trunk distribution despite eczema therapy"
+    "Systemic symptoms": "No fever, night sweats, or unexplained weight loss.",
+    "Focused clue": "The eruption has persisted for years and has not cleared with appropriate eczema care; ask about waxing and waning and prior biopsies."
   },
   "examFindings": {
-    "General appearance": "Alert and conversant; vital signs must be checked in real practice.",
-    "Focused lesion exam": "Persistent patch-stage plaques in bathing-trunk distribution despite eczema therapy.",
-    "Full skin exam": "No additional abnormality found on this maneuver.",
+    "General appearance": "Fictional teaching patient; assess vital signs and overall appearance in real practice.",
+    "Focused lesion exam": "Persistent scattered erythematous patches and thin plaques with fine scale and excoriations; the supplied image is labeled as an eczema-like presentation.",
+    "Full skin exam": "Assess distribution and extent beyond the pictured site; no fever, night sweats, or unexplained weight loss.",
     "Mucosal exam": "No additional abnormality found on this maneuver.",
     "Nails and hair": "No additional abnormality found on this maneuver.",
     "Lymph nodes": "No additional abnormality found on this maneuver.",
@@ -36,19 +36,21 @@
     "Dermoscopy": "No additional abnormality found on this maneuver."
   },
   "image": {
-    "file": "mycosis-fungoides.svg",
-    "status": "needs_image",
-    "alt": "Original vector placeholder, not a clinical photograph: a generic abstract lesion swatch, site trunk. No patient or diagnosis is depicted."
+    "file": "mycosis-fungoides.png",
+    "status": "real",
+    "alt": "Independent teaching photograph, not the fictional patient’s record: Persistent scattered erythematous patches and thin plaques with fine scale and excoriations; the supplied image is labeled as an eczema-like presentation.",
+    "credit": "User-supplied teaching image; permission confirmed by the user."
   },
-  "imageStatus": "needs_image",
+  "imageStatus": "real",
   "correctMorphology": [
     "Patch",
-    "Patch"
+    "Plaque",
+    "Scale"
   ],
   "acceptableDifferential": [
     "Mycosis fungoides",
     "eczema",
-    "contact dermatitis"
+    "psoriasis"
   ],
   "tests": [
     {
@@ -115,7 +117,7 @@
     }
   ],
   "idealDisposition": "refer",
-  "teachingPearl": "repeat biopsies from representative sites; stop topical therapy before biopsy per specialist plan Reassess if the course changes or red flags emerge.",
+  "teachingPearl": "Persistent treatment-resistant patches can mimic eczema; diagnosis requires clinicopathologic correlation and sometimes repeat biopsies.",
   "traps": [
     "Anchoring on morphology without asking about timing",
     "Using a potent topical steroid on thin or intertriginous skin",
@@ -123,5 +125,5 @@
     "Ordering biopsy without a decision-changing question"
   ],
   "needsReview": true,
-  "urgentReason": "Time-sensitive pattern; emergency escalation takes priority over office testing."
+  "urgentReason": null
 }

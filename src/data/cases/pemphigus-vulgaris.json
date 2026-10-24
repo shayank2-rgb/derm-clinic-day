@@ -1,19 +1,19 @@
 {
   "id": "pemphigus-vulgaris",
-  "category": "urgent",
+  "category": "common",
   "demographics": {
     "age": 55,
     "sex": "F",
     "pregnancyRelevant": false,
     "context": "general"
   },
-  "chiefComplaint": "Painful mouth sores and fragile blisters",
-  "lesionSite": "oral mucosa and trunk",
+  "chiefComplaint": "Painful raw areas in the mouth are followed by fragile skin blisters.",
+  "lesionSite": "Trunk and oral mucosa",
   "hiddenDiagnosis": "Pemphigus vulgaris",
-  "urgency": "critical",
+  "urgency": "high",
   "historyAnswers": {
     "Onset and duration": "The change began gradually over several weeks.",
-    "Itch versus pain": "There is mild itch and no disproportionate pain.",
+    "Itch versus pain": "Pain and burning are prominent.",
     "New medications": "No new medication in the past two months.",
     "Sun exposure and tanning": "Outdoor exposure is intermittent; no tanning bed use.",
     "Personal and family skin cancer history": "No personal skin cancer; family history reviewed.",
@@ -21,13 +21,14 @@
     "Prior treatments": "Over-the-counter moisturizer gave little relief.",
     "Occupation and hobbies": "No clear occupational exposure identified.",
     "Pregnancy and contraception status": "Pregnancy possibility and goals should be reviewed before teratogenic therapies.",
-    "Systemic symptoms": "No fever or systemic symptoms.",
-    "Focused clue": "flaccid bullae and painful oral erosions with positive Nikolsky sign"
+    "Systemic symptoms": "Assess hydration, infection, and extent of epidermal loss.",
+    "Focused clue": "Oral erosions preceded the skin eruption; blisters rupture easily and leave painful raw areas.",
+    "Mucosal symptoms": "Painful oral erosions interfere with eating; ask about eye and genital involvement."
   },
   "examFindings": {
-    "General appearance": "Alert and conversant; vital signs must be checked in real practice.",
-    "Focused lesion exam": "Flaccid bullae and painful oral erosions with positive nikolsky sign.",
-    "Full skin exam": "No additional abnormality found on this maneuver.",
+    "General appearance": "Fictional teaching patient; assess vital signs and overall appearance in real practice.",
+    "Focused lesion exam": "Widespread shallow erosions and hemorrhagic crusts over erythematous plaques on the upper trunk; correlate with oral mucosal disease.",
+    "Full skin exam": "Assess distribution and extent beyond the pictured site; assess hydration, infection, and extent of epidermal loss.",
     "Mucosal exam": "Painful oral erosions are present.",
     "Nails and hair": "No additional abnormality found on this maneuver.",
     "Lymph nodes": "No additional abnormality found on this maneuver.",
@@ -36,19 +37,21 @@
     "Dermoscopy": "No additional abnormality found on this maneuver."
   },
   "image": {
-    "file": "pemphigus-vulgaris.svg",
-    "status": "needs_image",
-    "alt": "Original vector placeholder, not a clinical photograph: a generic abstract lesion swatch, site oral mucosa and trunk. No patient or diagnosis is depicted."
+    "file": "pemphigus-vulgaris.jpg",
+    "status": "real",
+    "alt": "Independent teaching photograph, not the fictional patient’s record: Widespread shallow erosions and hemorrhagic crusts over erythematous plaques on the upper trunk; correlate with oral mucosal disease.",
+    "credit": "User-supplied teaching image; permission confirmed by the user."
   },
-  "imageStatus": "needs_image",
+  "imageStatus": "real",
   "correctMorphology": [
-    "Bulla",
+    "Erosion",
+    "Crust",
     "Bulla"
   ],
   "acceptableDifferential": [
     "Pemphigus vulgaris",
-    "eczema",
-    "contact dermatitis"
+    "pemphigus vulgaris",
+    "linear IgA bullous dermatosis"
   ],
   "tests": [
     {
@@ -115,7 +118,7 @@
     }
   ],
   "idealDisposition": "refer",
-  "teachingPearl": "biopsy lesional and perilesional skin for H&E and DIF; urgent specialist care Reassess if the course changes or red flags emerge.",
+  "teachingPearl": "Fragile blisters with mucosal erosions suggest pemphigus; confirm using lesional histology and perilesional direct immunofluorescence.",
   "traps": [
     "Anchoring on morphology without asking about timing",
     "Using a potent topical steroid on thin or intertriginous skin",
@@ -123,5 +126,5 @@
     "Ordering biopsy without a decision-changing question"
   ],
   "needsReview": true,
-  "urgentReason": "Time-sensitive pattern; emergency escalation takes priority over office testing."
+  "urgentReason": null
 }

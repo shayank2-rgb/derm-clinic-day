@@ -7,13 +7,13 @@
     "pregnancyRelevant": false,
     "context": "general"
   },
-  "chiefComplaint": "Thick scaly spots on the elbows and knees",
-  "lesionSite": "elbows and knees",
+  "chiefComplaint": "Thick scaly plaques on the elbows have gradually enlarged.",
+  "lesionSite": "Elbows and knees",
   "hiddenDiagnosis": "Plaque psoriasis",
   "urgency": "routine",
   "historyAnswers": {
     "Onset and duration": "The change began gradually over several weeks.",
-    "Itch versus pain": "There is mild itch and no disproportionate pain.",
+    "Itch versus pain": "Mild itch; no severe pain.",
     "New medications": "No new medication in the past two months.",
     "Sun exposure and tanning": "Outdoor exposure is intermittent; no tanning bed use.",
     "Personal and family skin cancer history": "No personal skin cancer; family history reviewed.",
@@ -22,12 +22,13 @@
     "Occupation and hobbies": "No clear occupational exposure identified.",
     "Pregnancy and contraception status": "Pregnancy possibility and goals should be reviewed before teratogenic therapies.",
     "Systemic symptoms": "No fever or systemic symptoms.",
-    "Focused clue": "well-demarcated plaques with adherent scale on extensor surfaces"
+    "Focused clue": "The plaques recur over years; ask about scalp, gluteal cleft, nails, family history, and inflammatory joint symptoms.",
+    "Joint symptoms": "No joint swelling or prolonged morning stiffness reported; reassess if symptoms arise."
   },
   "examFindings": {
-    "General appearance": "Alert and conversant; vital signs must be checked in real practice.",
-    "Focused lesion exam": "Well-demarcated plaques with adherent scale on extensor surfaces.",
-    "Full skin exam": "No additional abnormality found on this maneuver.",
+    "General appearance": "Fictional teaching patient; assess vital signs and overall appearance in real practice.",
+    "Focused lesion exam": "Well-demarcated erythematous plaques with thick silvery-white scale over extensor elbows and knees.",
+    "Full skin exam": "Assess distribution and extent beyond the pictured site; no fever or systemic symptoms.",
     "Mucosal exam": "No additional abnormality found on this maneuver.",
     "Nails and hair": "No additional abnormality found on this maneuver.",
     "Lymph nodes": "No additional abnormality found on this maneuver.",
@@ -36,11 +37,12 @@
     "Dermoscopy": "No additional abnormality found on this maneuver."
   },
   "image": {
-    "file": "plaque-psoriasis.svg",
-    "status": "needs_image",
-    "alt": "Original vector placeholder, not a clinical photograph: a generic abstract lesion swatch, site elbows and knees. No patient or diagnosis is depicted."
+    "file": "plaque-psoriasis.webp",
+    "status": "real",
+    "alt": "Independent teaching photograph, not the fictional patient’s record: Well-demarcated erythematous plaques with thick silvery-white scale over extensor elbows and knees.",
+    "credit": "User-supplied teaching image; permission confirmed by the user."
   },
-  "imageStatus": "needs_image",
+  "imageStatus": "real",
   "correctMorphology": [
     "Plaque",
     "Scale"
@@ -48,7 +50,7 @@
   "acceptableDifferential": [
     "Plaque psoriasis",
     "eczema",
-    "contact dermatitis"
+    "psoriasis"
   ],
   "tests": [
     {
@@ -115,7 +117,7 @@
     }
   ],
   "idealDisposition": "discharge",
-  "teachingPearl": "topical corticosteroid with site and duration counseling; assess joints Reassess if the course changes or red flags emerge.",
+  "teachingPearl": "Sharply demarcated extensor plaques with scale support psoriasis; screen for nail disease and psoriatic arthritis.",
   "traps": [
     "Anchoring on morphology without asking about timing",
     "Using a potent topical steroid on thin or intertriginous skin",

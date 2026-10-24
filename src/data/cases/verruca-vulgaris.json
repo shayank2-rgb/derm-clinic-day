@@ -7,27 +7,27 @@
     "pregnancyRelevant": true,
     "context": "pediatric"
   },
-  "chiefComplaint": "A rough bump on one finger",
-  "lesionSite": "finger",
+  "chiefComplaint": "Several rough bumps have appeared on a finger and between the fingers.",
+  "lesionSite": "Finger and hand",
   "hiddenDiagnosis": "Verruca vulgaris",
   "urgency": "routine",
   "historyAnswers": {
     "Onset and duration": "The change began gradually over several weeks.",
-    "Itch versus pain": "There is mild itch and no disproportionate pain.",
+    "Itch versus pain": "Usually asymptomatic, sometimes tender with pressure.",
     "New medications": "No new medication in the past two months.",
     "Sun exposure and tanning": "Outdoor exposure is intermittent; no tanning bed use.",
     "Personal and family skin cancer history": "No personal skin cancer; family history reviewed.",
     "Immunosuppression": "No known immunosuppression.",
-    "Prior treatments": "Over-the-counter moisturizer gave little relief.",
+    "Prior treatments": "No prior clinician-directed treatment; discuss observation and treatment preferences.",
     "Occupation and hobbies": "No clear occupational exposure identified.",
     "Pregnancy and contraception status": "Pregnancy possibility and goals should be reviewed before teratogenic therapies.",
     "Systemic symptoms": "No fever or systemic symptoms.",
-    "Focused clue": "rough hyperkeratotic papules with interrupted skin lines"
+    "Focused clue": "The lesions have slowly enlarged over months; ask about picking, nail biting, and prior treatment."
   },
   "examFindings": {
-    "General appearance": "Alert and conversant; vital signs must be checked in real practice.",
-    "Focused lesion exam": "Rough hyperkeratotic papules with interrupted skin lines.",
-    "Full skin exam": "No additional abnormality found on this maneuver.",
+    "General appearance": "Fictional teaching patient; assess vital signs and overall appearance in real practice.",
+    "Focused lesion exam": "Grouped hyperkeratotic papules with a rough surface on the hand; skin lines are interrupted over the larger lesion.",
+    "Full skin exam": "Assess distribution and extent beyond the pictured site; no fever or systemic symptoms.",
     "Mucosal exam": "No additional abnormality found on this maneuver.",
     "Nails and hair": "No additional abnormality found on this maneuver.",
     "Lymph nodes": "No additional abnormality found on this maneuver.",
@@ -36,19 +36,20 @@
     "Dermoscopy": "No additional abnormality found on this maneuver."
   },
   "image": {
-    "file": "verruca-vulgaris.svg",
-    "status": "needs_image",
-    "alt": "Original vector placeholder, not a clinical photograph: a generic abstract lesion swatch, site finger. No patient or diagnosis is depicted."
+    "file": "verruca-vulgaris.jpg",
+    "status": "real",
+    "alt": "Independent teaching photograph, not the fictional patient’s record: Grouped hyperkeratotic papules with a rough surface on the hand; skin lines are interrupted over the larger lesion.",
+    "credit": "User-supplied teaching image; permission confirmed by the user."
   },
-  "imageStatus": "needs_image",
+  "imageStatus": "real",
   "correctMorphology": [
     "Papule",
-    "Papule"
+    "Scale"
   ],
   "acceptableDifferential": [
     "Verruca vulgaris",
     "eczema",
-    "contact dermatitis"
+    "psoriasis"
   ],
   "tests": [
     {
@@ -115,7 +116,7 @@
     }
   ],
   "idealDisposition": "discharge",
-  "teachingPearl": "observation, salicylic acid, or cryotherapy after counseling Reassess if the course changes or red flags emerge.",
+  "teachingPearl": "Rough hyperkeratotic papules that interrupt dermatoglyphics support common warts; counsel that spontaneous resolution is possible.",
   "traps": [
     "Anchoring on morphology without asking about timing",
     "Using a potent topical steroid on thin or intertriginous skin",

@@ -7,13 +7,13 @@
     "pregnancyRelevant": false,
     "context": "geriatric"
   },
-  "chiefComplaint": "Very painful dark skin lesions during dialysis",
-  "lesionSite": "thigh",
+  "chiefComplaint": "Painful dark patches are spreading across both lower legs.",
+  "lesionSite": "Lower legs and feet",
   "hiddenDiagnosis": "Calciphylaxis",
   "urgency": "critical",
   "historyAnswers": {
     "Onset and duration": "The change began gradually over several weeks.",
-    "Itch versus pain": "Deep skin pain is severe and out of proportion to visible findings.",
+    "Itch versus pain": "Severe pain, greater than the visible early skin change would suggest.",
     "New medications": "No new medication in the past two months.",
     "Sun exposure and tanning": "Outdoor exposure is intermittent; no tanning bed use.",
     "Personal and family skin cancer history": "No personal skin cancer; family history reviewed.",
@@ -21,13 +21,14 @@
     "Prior treatments": "Over-the-counter moisturizer gave little relief.",
     "Occupation and hobbies": "No clear occupational exposure identified.",
     "Pregnancy and contraception status": "Pregnancy possibility and goals should be reviewed before teratogenic therapies.",
-    "Systemic symptoms": "No fever or systemic symptoms.",
-    "Focused clue": "exquisitely painful retiform purpura and necrosis in dialysis patient"
+    "Systemic symptoms": "Assess for fever, hypotension, and secondary infection.",
+    "Focused clue": "The painful lesions progressed over days in a patient receiving hemodialysis for end-stage kidney disease.",
+    "Medical conditions and dialysis": "End-stage kidney disease on hemodialysis; review calcium-phosphate balance, warfarin, and recent changes."
   },
   "examFindings": {
-    "General appearance": "Alert and conversant; vital signs must be checked in real practice.",
-    "Focused lesion exam": "Retiform purpura with necrotic center and extreme tenderness.",
-    "Full skin exam": "No additional abnormality found on this maneuver.",
+    "General appearance": "Fictional teaching patient; assess vital signs and overall appearance in real practice.",
+    "Focused lesion exam": "Multifocal retiform violaceous purpura and stellate necrotic plaques with eschar on both lower legs and feet.",
+    "Full skin exam": "Assess distribution and extent beyond the pictured site; assess for fever, hypotension, and secondary infection.",
     "Mucosal exam": "No additional abnormality found on this maneuver.",
     "Nails and hair": "No additional abnormality found on this maneuver.",
     "Lymph nodes": "No additional abnormality found on this maneuver.",
@@ -36,19 +37,21 @@
     "Dermoscopy": "No additional abnormality found on this maneuver."
   },
   "image": {
-    "file": "calciphylaxis.svg",
-    "status": "needs_image",
-    "alt": "Original vector placeholder, not a clinical photograph: a generic abstract lesion swatch, site thigh. No patient or diagnosis is depicted."
+    "file": "calciphylaxis.jpg",
+    "status": "real",
+    "alt": "Independent teaching photograph, not the fictional patient’s record: Multifocal retiform violaceous purpura and stellate necrotic plaques with eschar on both lower legs and feet.",
+    "credit": "User-supplied teaching image; permission confirmed by the user."
   },
-  "imageStatus": "needs_image",
+  "imageStatus": "real",
   "correctMorphology": [
-    "Patch",
-    "Patch"
+    "Purpura",
+    "Ulcer",
+    "Crust"
   ],
   "acceptableDifferential": [
     "Calciphylaxis",
     "eczema",
-    "contact dermatitis"
+    "psoriasis"
   ],
   "tests": [
     {
@@ -115,7 +118,7 @@
     }
   ],
   "idealDisposition": "ED",
-  "teachingPearl": "urgent hospital multidisciplinary care; biopsy only after risk-benefit discussion Reassess if the course changes or red flags emerge.",
+  "teachingPearl": "In a patient with kidney failure, exquisitely painful retiform purpura or necrosis is an emergency; coordinate urgent multidisciplinary care.",
   "traps": [
     "Anchoring on morphology without asking about timing",
     "Using a potent topical steroid on thin or intertriginous skin",

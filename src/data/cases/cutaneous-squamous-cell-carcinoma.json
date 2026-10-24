@@ -7,27 +7,27 @@
     "pregnancyRelevant": false,
     "context": "immunosuppressed"
   },
-  "chiefComplaint": "A tender growing spot on the forearm",
-  "lesionSite": "forearm",
+  "chiefComplaint": "A crusted scalp lesion has grown and bleeds when combed.",
+  "lesionSite": "Sun-exposed scalp",
   "hiddenDiagnosis": "Cutaneous squamous cell carcinoma",
   "urgency": "high",
   "historyAnswers": {
     "Onset and duration": "The change began gradually over several weeks.",
-    "Itch versus pain": "There is mild itch and no disproportionate pain.",
+    "Itch versus pain": "Tender to pressure; no disproportionate pain.",
     "New medications": "No new medication in the past two months.",
-    "Sun exposure and tanning": "Outdoor exposure is intermittent; no tanning bed use.",
+    "Sun exposure and tanning": "Extensive cumulative sun exposure; ask about transplant history or other immunosuppression.",
     "Personal and family skin cancer history": "No personal skin cancer; family history reviewed.",
     "Immunosuppression": "Kidney transplant recipient taking long-term immunosuppression; this changes skin cancer risk.",
     "Prior treatments": "Over-the-counter moisturizer gave little relief.",
     "Occupation and hobbies": "No clear occupational exposure identified.",
     "Pregnancy and contraception status": "Pregnancy possibility and goals should be reviewed before teratogenic therapies.",
-    "Systemic symptoms": "No fever or systemic symptoms.",
-    "Focused clue": "rapidly growing tender hyperkeratotic nodule on sun-exposed skin"
+    "Systemic symptoms": "Check regional nodes when clinically indicated.",
+    "Focused clue": "The lesion has enlarged over months and repeatedly crusts or bleeds; review prior skin cancers and immune suppression."
   },
   "examFindings": {
-    "General appearance": "Alert and conversant; vital signs must be checked in real practice.",
-    "Focused lesion exam": "Rapidly growing tender hyperkeratotic nodule on sun-exposed skin.",
-    "Full skin exam": "No additional abnormality found on this maneuver.",
+    "General appearance": "Fictional teaching patient; assess vital signs and overall appearance in real practice.",
+    "Focused lesion exam": "A firm erythematous nodule with a central keratotic/crusted ulcer and an irregular raised rim on sun-exposed scalp.",
+    "Full skin exam": "Assess distribution and extent beyond the pictured site; check regional nodes when clinically indicated.",
     "Mucosal exam": "No additional abnormality found on this maneuver.",
     "Nails and hair": "No additional abnormality found on this maneuver.",
     "Lymph nodes": "No palpable regional lymphadenopathy; assess by site and risk.",
@@ -36,19 +36,21 @@
     "Dermoscopy": "No additional abnormality found on this maneuver."
   },
   "image": {
-    "file": "cutaneous-squamous-cell-carcinoma.svg",
-    "status": "needs_image",
-    "alt": "Original vector placeholder, not a clinical photograph: a generic abstract lesion swatch, site forearm. No patient or diagnosis is depicted."
+    "file": "cutaneous-squamous-cell-carcinoma.jpg",
+    "status": "real",
+    "alt": "Independent teaching photograph, not the fictional patient’s record: A firm erythematous nodule with a central keratotic/crusted ulcer and an irregular raised rim on sun-exposed scalp.",
+    "credit": "User-supplied teaching image; permission confirmed by the user."
   },
-  "imageStatus": "needs_image",
+  "imageStatus": "real",
   "correctMorphology": [
     "Nodule",
-    "Nodule"
+    "Crust",
+    "Ulcer"
   ],
   "acceptableDifferential": [
     "Cutaneous squamous cell carcinoma",
     "melanoma",
-    "pigmented nevus"
+    "benign melanocytic nevus"
   ],
   "tests": [
     {
@@ -115,7 +117,7 @@
     }
   ],
   "idealDisposition": "refer",
-  "teachingPearl": "biopsy and prompt risk-based definitive treatment Reassess if the course changes or red flags emerge.",
+  "teachingPearl": "A growing keratotic or ulcerated nodule needs prompt biopsy and risk-based definitive treatment.",
   "traps": [
     "Anchoring on morphology without asking about timing",
     "Using a potent topical steroid on thin or intertriginous skin",

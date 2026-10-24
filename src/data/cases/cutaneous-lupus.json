@@ -7,27 +7,27 @@
     "pregnancyRelevant": true,
     "context": "general"
   },
-  "chiefComplaint": "A sun-triggered scaly rash with lingering marks",
-  "lesionSite": "cheeks and forearms",
+  "chiefComplaint": "Scaly spots on the hands have persisted and left areas of discoloration.",
+  "lesionSite": "Dorsal hand and forearm",
   "hiddenDiagnosis": "Cutaneous lupus erythematosus",
   "urgency": "routine",
   "historyAnswers": {
     "Onset and duration": "The change began gradually over several weeks.",
-    "Itch versus pain": "There is mild itch and no disproportionate pain.",
+    "Itch versus pain": "Mild itch or burning; no severe pain.",
     "New medications": "No new medication in the past two months.",
-    "Sun exposure and tanning": "Outdoor exposure is intermittent; no tanning bed use.",
+    "Sun exposure and tanning": "Photosensitive flares; ask about sunscreen use and systemic lupus symptoms.",
     "Personal and family skin cancer history": "No personal skin cancer; family history reviewed.",
     "Immunosuppression": "No known immunosuppression.",
     "Prior treatments": "Over-the-counter moisturizer gave little relief.",
     "Occupation and hobbies": "No clear occupational exposure identified.",
     "Pregnancy and contraception status": "Pregnancy possibility and goals should be reviewed before teratogenic therapies.",
-    "Systemic symptoms": "No fever or systemic symptoms.",
-    "Focused clue": "photosensitive scaly plaques with dyspigmented scarring"
+    "Systemic symptoms": "No fever or new systemic symptoms; review oral ulcers, joint symptoms, and Raynaud symptoms.",
+    "Focused clue": "The plaques recur after sun exposure and have persisted despite over-the-counter moisturizer."
   },
   "examFindings": {
-    "General appearance": "Alert and conversant; vital signs must be checked in real practice.",
-    "Focused lesion exam": "Photosensitive scaly plaques with dyspigmented scarring.",
-    "Full skin exam": "No additional abnormality found on this maneuver.",
+    "General appearance": "Fictional teaching patient; assess vital signs and overall appearance in real practice.",
+    "Focused lesion exam": "Multiple well-demarcated erythematous plaques with adherent scale and central dyspigmentation on the dorsal hand/forearm.",
+    "Full skin exam": "Assess distribution and extent beyond the pictured site; no fever or new systemic symptoms; review oral ulcers, joint symptoms, and raynaud symptoms.",
     "Mucosal exam": "No additional abnormality found on this maneuver.",
     "Nails and hair": "No additional abnormality found on this maneuver.",
     "Lymph nodes": "No additional abnormality found on this maneuver.",
@@ -36,19 +36,20 @@
     "Dermoscopy": "No additional abnormality found on this maneuver."
   },
   "image": {
-    "file": "cutaneous-lupus.svg",
-    "status": "needs_image",
-    "alt": "Original vector placeholder, not a clinical photograph: a generic abstract lesion swatch, site cheeks and forearms. No patient or diagnosis is depicted."
+    "file": "cutaneous-lupus.jpg",
+    "status": "real",
+    "alt": "Independent teaching photograph, not the fictional patient’s record: Multiple well-demarcated erythematous plaques with adherent scale and central dyspigmentation on the dorsal hand/forearm.",
+    "credit": "User-supplied teaching image; permission confirmed by the user."
   },
-  "imageStatus": "needs_image",
+  "imageStatus": "real",
   "correctMorphology": [
     "Plaque",
-    "Plaque"
+    "Scale"
   ],
   "acceptableDifferential": [
     "Cutaneous lupus erythematosus",
     "eczema",
-    "contact dermatitis"
+    "psoriasis"
   ],
   "tests": [
     {
@@ -115,7 +116,7 @@
     }
   ],
   "idealDisposition": "refer",
-  "teachingPearl": "photoprotection, biopsy/labs when indicated, and assess systemic symptoms Reassess if the course changes or red flags emerge.",
+  "teachingPearl": "Discoid plaques can scar and dyspigment; assess for systemic features, document extent, and emphasize photoprotection.",
   "traps": [
     "Anchoring on morphology without asking about timing",
     "Using a potent topical steroid on thin or intertriginous skin",

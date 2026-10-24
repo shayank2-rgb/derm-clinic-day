@@ -7,13 +7,13 @@
     "pregnancyRelevant": false,
     "context": "pediatric"
   },
-  "chiefComplaint": "Small bumps spreading on the arm",
-  "lesionSite": "arm",
+  "chiefComplaint": "Several small smooth bumps have appeared on one arm.",
+  "lesionSite": "Arm",
   "hiddenDiagnosis": "Molluscum contagiosum",
   "urgency": "routine",
   "historyAnswers": {
     "Onset and duration": "The change began gradually over several weeks.",
-    "Itch versus pain": "There is mild itch and no disproportionate pain.",
+    "Itch versus pain": "Usually asymptomatic; mild itch around inflamed lesions.",
     "New medications": "No new medication in the past two months.",
     "Sun exposure and tanning": "Outdoor exposure is intermittent; no tanning bed use.",
     "Personal and family skin cancer history": "No personal skin cancer; family history reviewed.",
@@ -22,12 +22,13 @@
     "Occupation and hobbies": "No clear occupational exposure identified.",
     "Pregnancy and contraception status": "Pregnancy possibility and goals should be reviewed before teratogenic therapies.",
     "Systemic symptoms": "No fever or systemic symptoms.",
-    "Focused clue": "small pearly umbilicated papules in a child"
+    "Focused clue": "The papules have slowly increased over weeks; household or close-contact members may have similar lesions.",
+    "Immune status": "Ask about atopic dermatitis and immunosuppression, which can alter extent or appearance."
   },
   "examFindings": {
-    "General appearance": "Alert and conversant; vital signs must be checked in real practice.",
-    "Focused lesion exam": "Small pearly umbilicated papules in a child.",
-    "Full skin exam": "No additional abnormality found on this maneuver.",
+    "General appearance": "Fictional teaching patient; assess vital signs and overall appearance in real practice.",
+    "Focused lesion exam": "Multiple small, smooth, dome-shaped flesh-colored papules with central umbilication, with one larger inflamed papule in the supplied image.",
+    "Full skin exam": "Assess distribution and extent beyond the pictured site; no fever or systemic symptoms.",
     "Mucosal exam": "No additional abnormality found on this maneuver.",
     "Nails and hair": "No additional abnormality found on this maneuver.",
     "Lymph nodes": "No additional abnormality found on this maneuver.",
@@ -36,19 +37,19 @@
     "Dermoscopy": "No additional abnormality found on this maneuver."
   },
   "image": {
-    "file": "molluscum-contagiosum.svg",
-    "status": "needs_image",
-    "alt": "Original vector placeholder, not a clinical photograph: a generic abstract lesion swatch, site arm. No patient or diagnosis is depicted."
+    "file": "molluscum-contagiosum.jpg",
+    "status": "real",
+    "alt": "Independent teaching photograph, not the fictional patient’s record: Multiple small, smooth, dome-shaped flesh-colored papules with central umbilication, with one larger inflamed papule in the supplied image.",
+    "credit": "User-supplied teaching image; permission confirmed by the user."
   },
-  "imageStatus": "needs_image",
+  "imageStatus": "real",
   "correctMorphology": [
-    "Papule",
     "Papule"
   ],
   "acceptableDifferential": [
     "Molluscum contagiosum",
     "eczema",
-    "contact dermatitis"
+    "psoriasis"
   ],
   "tests": [
     {
@@ -115,7 +116,7 @@
     }
   ],
   "idealDisposition": "discharge",
-  "teachingPearl": "reassurance and observation; discuss autoinoculation and avoid traumatic treatment Reassess if the course changes or red flags emerge.",
+  "teachingPearl": "Central umbilication is a useful clue; counsel about transmission and choose watchful waiting or treatment based on symptoms and context.",
   "traps": [
     "Anchoring on morphology without asking about timing",
     "Using a potent topical steroid on thin or intertriginous skin",

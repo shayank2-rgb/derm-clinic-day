@@ -7,27 +7,27 @@
     "pregnancyRelevant": true,
     "context": "general"
   },
-  "chiefComplaint": "Breakouts and tender bumps on the face",
-  "lesionSite": "face and upper trunk",
+  "chiefComplaint": "Breakouts leave tender bumps and dark marks on the cheeks.",
+  "lesionSite": "Cheek",
   "hiddenDiagnosis": "Acne vulgaris",
   "urgency": "routine",
   "historyAnswers": {
     "Onset and duration": "The change began gradually over several weeks.",
-    "Itch versus pain": "There is mild itch and no disproportionate pain.",
+    "Itch versus pain": "Tender inflammatory lesions; no deep pain or systemic symptoms.",
     "New medications": "No new medication in the past two months.",
     "Sun exposure and tanning": "Outdoor exposure is intermittent; no tanning bed use.",
     "Personal and family skin cancer history": "No personal skin cancer; family history reviewed.",
     "Immunosuppression": "No known immunosuppression.",
     "Prior treatments": "Over-the-counter moisturizer gave little relief.",
     "Occupation and hobbies": "No clear occupational exposure identified.",
-    "Pregnancy and contraception status": "Pregnancy possibility and goals should be reviewed before teratogenic therapies.",
+    "Pregnancy and contraception status": "Review pregnancy possibility and goals before recommending a retinoid or other potentially harmful medication.",
     "Systemic symptoms": "No fever or systemic symptoms.",
-    "Focused clue": "comedones and inflammatory papules on face and upper trunk"
+    "Focused clue": "The eruption has fluctuated for months and worsens around menses; ask about scarring, distress, and current products."
   },
   "examFindings": {
-    "General appearance": "Alert and conversant; vital signs must be checked in real practice.",
-    "Focused lesion exam": "Comedones and inflammatory papules on face and upper trunk.",
-    "Full skin exam": "No additional abnormality found on this maneuver.",
+    "General appearance": "Fictional teaching patient; assess vital signs and overall appearance in real practice.",
+    "Focused lesion exam": "Mixed open/closed comedones and inflammatory papules with post-inflammatory macules on the cheek; the supplied photograph includes part of the face.",
+    "Full skin exam": "Assess distribution and extent beyond the pictured site; no fever or systemic symptoms.",
     "Mucosal exam": "No additional abnormality found on this maneuver.",
     "Nails and hair": "No additional abnormality found on this maneuver.",
     "Lymph nodes": "No additional abnormality found on this maneuver.",
@@ -36,19 +36,21 @@
     "Dermoscopy": "No additional abnormality found on this maneuver."
   },
   "image": {
-    "file": "acne-vulgaris.svg",
-    "status": "needs_image",
-    "alt": "Original vector placeholder, not a clinical photograph: a generic abstract lesion swatch, site face and upper trunk. No patient or diagnosis is depicted."
+    "file": "acne-vulgaris.jpeg",
+    "status": "real",
+    "alt": "Independent teaching photograph, not the fictional patient’s record: Mixed open/closed comedones and inflammatory papules with post-inflammatory macules on the cheek; the supplied photograph includes part of the face.",
+    "credit": "User-supplied teaching image; permission confirmed by the user."
   },
-  "imageStatus": "needs_image",
+  "imageStatus": "real",
   "correctMorphology": [
     "Comedone",
-    "Comedone"
+    "Papule",
+    "Pustule"
   ],
   "acceptableDifferential": [
     "Acne vulgaris",
     "eczema",
-    "contact dermatitis"
+    "psoriasis"
   ],
   "tests": [
     {
@@ -115,7 +117,7 @@
     }
   ],
   "idealDisposition": "discharge",
-  "teachingPearl": "adapalene and benzoyl peroxide; assess pregnancy plans before retinoid counseling Reassess if the course changes or red flags emerge.",
+  "teachingPearl": "Comedones distinguish acne from rosacea; choose therapy by lesion type, severity, scarring risk, and pregnancy goals.",
   "traps": [
     "Anchoring on morphology without asking about timing",
     "Using a potent topical steroid on thin or intertriginous skin",

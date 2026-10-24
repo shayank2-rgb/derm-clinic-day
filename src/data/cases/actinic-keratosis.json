@@ -7,27 +7,27 @@
     "pregnancyRelevant": false,
     "context": "geriatric"
   },
-  "chiefComplaint": "A rough spot on the sun-exposed scalp",
-  "lesionSite": "scalp",
+  "chiefComplaint": "A rough spot on the back of the hand keeps catching on clothing.",
+  "lesionSite": "Dorsal hand",
   "hiddenDiagnosis": "Actinic keratosis",
   "urgency": "high",
   "historyAnswers": {
     "Onset and duration": "The change began gradually over several weeks.",
-    "Itch versus pain": "There is mild itch and no disproportionate pain.",
+    "Itch versus pain": "Mild tenderness when rubbed; no spontaneous or disproportionate pain.",
     "New medications": "No new medication in the past two months.",
-    "Sun exposure and tanning": "Outdoor exposure is intermittent; no tanning bed use.",
+    "Sun exposure and tanning": "Long-term outdoor work with substantial cumulative ultraviolet exposure; no tanning-bed use.",
     "Personal and family skin cancer history": "No personal skin cancer; family history reviewed.",
     "Immunosuppression": "No known immunosuppression.",
     "Prior treatments": "Over-the-counter moisturizer gave little relief.",
     "Occupation and hobbies": "No clear occupational exposure identified.",
     "Pregnancy and contraception status": "Pregnancy possibility and goals should be reviewed before teratogenic therapies.",
-    "Systemic symptoms": "No fever or systemic symptoms.",
-    "Focused clue": "rough gritty papule on chronically sun-exposed scalp"
+    "Systemic symptoms": "No fever, weight loss, or systemic symptoms.",
+    "Focused clue": "Over years of outdoor work, multiple rough spots have appeared on the backs of the hands; one remains rough after moisturizer."
   },
   "examFindings": {
-    "General appearance": "Alert and conversant; vital signs must be checked in real practice.",
-    "Focused lesion exam": "Rough gritty papule on chronically sun-exposed scalp.",
-    "Full skin exam": "No additional abnormality found on this maneuver.",
+    "General appearance": "Fictional teaching patient; assess vital signs and overall appearance in real practice.",
+    "Focused lesion exam": "Several gritty erythematous papules with adherent scale and focal crust on chronically sun-exposed dorsal hand and wrist.",
+    "Full skin exam": "Assess distribution and extent beyond the pictured site; no fever, weight loss, or systemic symptoms.",
     "Mucosal exam": "No additional abnormality found on this maneuver.",
     "Nails and hair": "No additional abnormality found on this maneuver.",
     "Lymph nodes": "No palpable regional lymphadenopathy; assess by site and risk.",
@@ -36,19 +36,20 @@
     "Dermoscopy": "No additional abnormality found on this maneuver."
   },
   "image": {
-    "file": "actinic-keratosis.svg",
-    "status": "needs_image",
-    "alt": "Original vector placeholder, not a clinical photograph: a generic abstract lesion swatch, site scalp. No patient or diagnosis is depicted."
+    "file": "actinic-keratosis.jpg",
+    "status": "real",
+    "alt": "Independent teaching photograph, not the fictional patient’s record: Several gritty erythematous papules with adherent scale and focal crust on chronically sun-exposed dorsal hand and wrist.",
+    "credit": "User-supplied teaching image; permission confirmed by the user."
   },
-  "imageStatus": "needs_image",
+  "imageStatus": "real",
   "correctMorphology": [
     "Papule",
-    "Papule"
+    "Scale"
   ],
   "acceptableDifferential": [
     "Actinic keratosis",
-    "melanoma",
-    "pigmented nevus"
+    "cutaneous squamous cell carcinoma",
+    "seborrheic keratosis"
   ],
   "tests": [
     {
@@ -115,7 +116,7 @@
     }
   ],
   "idealDisposition": "discharge",
-  "teachingPearl": "cryotherapy or field therapy; biopsy if thick, tender, or indurated Reassess if the course changes or red flags emerge.",
+  "teachingPearl": "Sun-exposed rough scale may represent actinic keratosis; biopsy a lesion that is thick, tender, indurated, or growing.",
   "traps": [
     "Anchoring on morphology without asking about timing",
     "Using a potent topical steroid on thin or intertriginous skin",

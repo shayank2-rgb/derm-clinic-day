@@ -1,0 +1,122 @@
+{
+  "id": "cellulitis",
+  "category": "common",
+  "demographics": {
+    "age": 62,
+    "sex": "F",
+    "pregnancyRelevant": false,
+    "context": "general"
+  },
+  "chiefComplaint": "One lower leg has become hot, swollen, red, and tender over two days.",
+  "lesionSite": "Lower leg",
+  "hiddenDiagnosis": "Cellulitis",
+  "urgency": "high",
+  "historyAnswers": {
+    "Onset and duration": "Progression has been rapid over 36 hours.",
+    "Itch versus pain": "Warm and tender; pain is not out of proportion.",
+    "New medications": "No new medication in the past two months.",
+    "Sun exposure and tanning": "Outdoor exposure is intermittent; no tanning bed use.",
+    "Personal and family skin cancer history": "No personal skin cancer; family history reviewed.",
+    "Immunosuppression": "No known immunosuppression.",
+    "Prior treatments": "Over-the-counter moisturizer gave little relief.",
+    "Occupation and hobbies": "No clear occupational exposure identified.",
+    "Pregnancy and contraception status": "Pregnancy possibility and goals should be reviewed before teratogenic therapies.",
+    "Systemic symptoms": "Check vital signs, perfusion, and for fluctuance or signs of deeper infection.",
+    "Focused clue": "The redness expanded over two days after a small skin break; ask about diabetes, edema, prior episodes, and MRSA risk."
+  },
+  "examFindings": {
+    "General appearance": "Alert and well appearing; record vital signs and assess severity in real practice.",
+    "Focused lesion exam": "Warm, tender, expanding erythematous plaque with edema on the lower leg; no fluctuance, bullae, necrosis, or pain out of proportion.",
+    "Full skin exam": "Inspect for a portal of entry, toe-web maceration, ulcers, and other sites of infection.",
+    "Lymph nodes": "Mildly tender regional nodes may be present; assess for lymphangitis.",
+    "Mucosal exam": "No mucosal involvement.",
+    "Nails and hair": "No additional abnormality found on this maneuver."
+  },
+  "image": {
+    "file": "cellulitis.jpeg",
+    "status": "real",
+    "alt": "Independent teaching photograph, not the fictional patient’s record: A broad, confluent area of bright erythema and edema over the lower leg with an advancing margin; no obvious abscess in the supplied image.",
+    "credit": "User-supplied teaching image; permission confirmed by the user."
+  },
+  "imageStatus": "real",
+  "correctMorphology": [
+    "Plaque"
+  ],
+  "acceptableDifferential": [
+    "Cellulitis",
+    "erysipelas",
+    "deep soft-tissue infection"
+  ],
+  "tests": [
+    {
+      "name": "CBC and CMP",
+      "result": "Mild leukocytosis; renal function reviewed before antibiotic selection and dosing.",
+      "minutes": 12,
+      "indicated": true
+    },
+    {
+      "name": "Ultrasound",
+      "result": "No drainable collection identified if imaging is obtained because an abscess is uncertain.",
+      "minutes": 10,
+      "indicated": false
+    },
+    {
+      "name": "Bacterial culture",
+      "result": "No drainage is available to culture in this nonpurulent presentation.",
+      "minutes": 8,
+      "indicated": false
+    },
+    {
+      "name": "Photo documentation",
+      "result": "Baseline border and extent recorded for reassessment.",
+      "minutes": 3,
+      "indicated": true
+    },
+    {
+      "name": "KOH prep",
+      "result": "No fungal elements seen.",
+      "minutes": 8,
+      "indicated": false
+    }
+  ],
+  "acceptableTreatments": [
+    {
+      "name": "Oral antibiotic",
+      "reason": "Choose an appropriate oral regimen using local guidance, allergy history, and severity; reassess if worsening."
+    }
+  ],
+  "unacceptableTreatments": [
+    {
+      "name": "High-potency topical corticosteroid on face or folds",
+      "reason": "Site-related atrophy risk; choose site-appropriate treatment."
+    },
+    {
+      "name": "Systemic corticosteroid for an undifferentiated rash",
+      "reason": "May obscure diagnosis and worsen some infections."
+    },
+    {
+      "name": "Methotrexate without baseline assessment",
+      "reason": "Requires screening, labs, pregnancy precautions, and specialist oversight."
+    },
+    {
+      "name": "Biologic therapy without infection screening",
+      "reason": "Requires appropriate screening and specialist plan."
+    },
+    {
+      "name": "Spironolactone without pregnancy and contraindication review",
+      "reason": "Review pregnancy goals, relevant contraindications, and monitoring before use."
+    },
+    {
+      "name": "Isotretinoin without pregnancy prevention steps when applicable",
+      "reason": "Major teratogenic risk; follow current prescribing safeguards."
+    }
+  ],
+  "idealDisposition": "discharge",
+  "teachingPearl": "Treat nonpurulent cellulitis according to severity and local guidance; reassess promptly if it progresses or systemic toxicity develops.",
+  "traps": [
+    "Missing a portal of entry or an abscess",
+    "Overlooking rapid progression, systemic toxicity, bullae, necrosis, or pain out of proportion"
+  ],
+  "needsReview": true,
+  "urgentReason": null
+}

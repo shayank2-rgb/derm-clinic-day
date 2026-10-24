@@ -7,13 +7,13 @@
     "pregnancyRelevant": false,
     "context": "general"
   },
-  "chiefComplaint": "Rapidly worsening severe pain and redness",
-  "lesionSite": "lower leg",
+  "chiefComplaint": "Rapidly worsening foot pain and swelling are accompanied by fever.",
+  "lesionSite": "Foot",
   "hiddenDiagnosis": "Necrotizing soft-tissue infection",
   "urgency": "critical",
   "historyAnswers": {
     "Onset and duration": "Progression has been rapid over 36 hours.",
-    "Itch versus pain": "Deep skin pain is severe and out of proportion to visible findings.",
+    "Itch versus pain": "Severe pain out of proportion to the initial visible skin change.",
     "New medications": "No new medication in the past two months.",
     "Sun exposure and tanning": "Outdoor exposure is intermittent; no tanning bed use.",
     "Personal and family skin cancer history": "No personal skin cancer; family history reviewed.",
@@ -21,13 +21,13 @@
     "Prior treatments": "Over-the-counter moisturizer gave little relief.",
     "Occupation and hobbies": "No clear occupational exposure identified.",
     "Pregnancy and contraception status": "Pregnancy possibility and goals should be reviewed before teratogenic therapies.",
-    "Systemic symptoms": "Fever and malaise are present; this is an emergency.",
-    "Focused clue": "rapidly progressive pain out of proportion, fever, and dusky skin"
+    "Systemic symptoms": "Rapid progression, systemic toxicity, bullae, ecchymosis, or necrosis require emergency escalation.",
+    "Focused clue": "Pain and swelling progressed rapidly over hours; ask about trauma, procedures, diabetes, and immune compromise."
   },
   "examFindings": {
-    "General appearance": "Alert and conversant; vital signs must be checked in real practice.",
-    "Focused lesion exam": "Rapidly progressive pain out of proportion, fever, and dusky skin.",
-    "Full skin exam": "No additional abnormality found on this maneuver.",
+    "General appearance": "Fictional teaching patient; assess vital signs and overall appearance in real practice.",
+    "Focused lesion exam": "Graphic operative teaching photograph of deep soft-tissue necrosis and an extensive plantar foot wound; it depicts advanced disease rather than an early office finding.",
+    "Full skin exam": "Assess distribution and extent beyond the pictured site; rapid progression, systemic toxicity, bullae, ecchymosis, or necrosis require emergency escalation.",
     "Mucosal exam": "No additional abnormality found on this maneuver.",
     "Nails and hair": "No additional abnormality found on this maneuver.",
     "Lymph nodes": "No additional abnormality found on this maneuver.",
@@ -36,19 +36,21 @@
     "Dermoscopy": "No additional abnormality found on this maneuver."
   },
   "image": {
-    "file": "necrotizing-infection.svg",
-    "status": "needs_image",
-    "alt": "Original vector placeholder, not a clinical photograph: a generic abstract lesion swatch, site lower leg. No patient or diagnosis is depicted."
+    "file": "necrotizing-infection.jpg",
+    "status": "real",
+    "alt": "Independent teaching photograph, not the fictional patient’s record: Graphic operative teaching photograph of deep soft-tissue necrosis and an extensive plantar foot wound; it depicts advanced disease rather than an early office finding.",
+    "credit": "User-supplied teaching image; permission confirmed by the user."
   },
-  "imageStatus": "needs_image",
+  "imageStatus": "real",
   "correctMorphology": [
-    "Patch",
-    "Patch"
+    "Ulcer",
+    "Crust",
+    "Purpura"
   ],
   "acceptableDifferential": [
     "Necrotizing soft-tissue infection",
-    "eczema",
-    "contact dermatitis"
+    "erysipelas",
+    "deep soft-tissue infection"
   ],
   "tests": [
     {
@@ -115,7 +117,7 @@
     }
   ],
   "idealDisposition": "ED",
-  "teachingPearl": "immediate emergency surgical evaluation; do not delay for dermatology testing Reassess if the course changes or red flags emerge.",
+  "teachingPearl": "Do not delay emergency surgical evaluation for imaging or outpatient testing when necrotizing infection is suspected.",
   "traps": [
     "Anchoring on morphology without asking about timing",
     "Using a potent topical steroid on thin or intertriginous skin",

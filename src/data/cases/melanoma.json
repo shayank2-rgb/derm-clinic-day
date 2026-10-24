@@ -7,27 +7,27 @@
     "pregnancyRelevant": true,
     "context": "general"
   },
-  "chiefComplaint": "A changing dark spot on the shoulder",
-  "lesionSite": "shoulder",
+  "chiefComplaint": "A dark raised spot has changed shape and bled once.",
+  "lesionSite": "Shoulder",
   "hiddenDiagnosis": "Melanoma",
   "urgency": "high",
   "historyAnswers": {
     "Onset and duration": "The change began gradually over several weeks.",
-    "Itch versus pain": "There is mild itch and no disproportionate pain.",
+    "Itch versus pain": "No pain today; one episode of bleeding after friction.",
     "New medications": "No new medication in the past two months.",
     "Sun exposure and tanning": "Outdoor exposure is intermittent; no tanning bed use.",
-    "Personal and family skin cancer history": "No personal skin cancer; family history reviewed.",
+    "Personal and family skin cancer history": "The spot is new and evolving; review personal/family skin cancer history and UV exposure.",
     "Immunosuppression": "No known immunosuppression.",
     "Prior treatments": "Over-the-counter moisturizer gave little relief.",
     "Occupation and hobbies": "No clear occupational exposure identified.",
     "Pregnancy and contraception status": "Pregnancy possibility and goals should be reviewed before teratogenic therapies.",
-    "Systemic symptoms": "No fever or systemic symptoms.",
-    "Focused clue": "asymmetric evolving pigmented lesion with color variation"
+    "Systemic symptoms": "No constitutional symptoms or palpable regional nodes on focused exam.",
+    "Focused clue": "The lesion has enlarged and changed color over several months; ask about prior melanoma, atypical nevi, and ultraviolet exposure."
   },
   "examFindings": {
-    "General appearance": "Alert and conversant; vital signs must be checked in real practice.",
-    "Focused lesion exam": "Asymmetric evolving pigmented lesion with color variation.",
-    "Full skin exam": "No additional abnormality found on this maneuver.",
+    "General appearance": "Fictional teaching patient; assess vital signs and overall appearance in real practice.",
+    "Focused lesion exam": "An asymmetric, irregularly contoured dark brown-to-black lobulated plaque/nodule with focal erythema.",
+    "Full skin exam": "Assess distribution and extent beyond the pictured site; no constitutional symptoms or palpable regional nodes on focused exam.",
     "Mucosal exam": "No additional abnormality found on this maneuver.",
     "Nails and hair": "No additional abnormality found on this maneuver.",
     "Lymph nodes": "No palpable regional lymphadenopathy; assess by site and risk.",
@@ -36,19 +36,20 @@
     "Dermoscopy": "Asymmetric network and irregular dots/globules; concerning evolution."
   },
   "image": {
-    "file": "melanoma.svg",
-    "status": "needs_image",
-    "alt": "Original vector placeholder, not a clinical photograph: a generic abstract lesion swatch, site shoulder. No patient or diagnosis is depicted."
+    "file": "melanoma.webp",
+    "status": "real",
+    "alt": "Independent teaching photograph, not the fictional patient’s record: An asymmetric, irregularly contoured dark brown-to-black lobulated plaque/nodule with focal erythema.",
+    "credit": "User-supplied teaching image; permission confirmed by the user."
   },
-  "imageStatus": "needs_image",
+  "imageStatus": "real",
   "correctMorphology": [
-    "Patch",
-    "Patch"
+    "Plaque",
+    "Nodule"
   ],
   "acceptableDifferential": [
     "Melanoma",
-    "melanoma",
-    "pigmented nevus"
+    "atypical nevus",
+    "pigmented basal cell carcinoma"
   ],
   "tests": [
     {
@@ -115,7 +116,7 @@
     }
   ],
   "idealDisposition": "refer",
-  "teachingPearl": "urgent complete diagnostic biopsy with appropriate margins; stage after pathology Reassess if the course changes or red flags emerge.",
+  "teachingPearl": "An evolving, asymmetric, variegated pigmented lesion requires prompt biopsy with appropriate technique and staging follow-up.",
   "traps": [
     "Anchoring on morphology without asking about timing",
     "Using a potent topical steroid on thin or intertriginous skin",

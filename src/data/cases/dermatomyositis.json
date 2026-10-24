@@ -1,19 +1,19 @@
 {
   "id": "dermatomyositis",
-  "category": "urgent",
+  "category": "common",
   "demographics": {
     "age": 48,
     "sex": "F",
     "pregnancyRelevant": true,
     "context": "general"
   },
-  "chiefComplaint": "A new rash and difficulty climbing stairs",
-  "lesionSite": "hands, eyelids, and upper chest",
+  "chiefComplaint": "Raised scaly bumps have appeared over the finger joints.",
+  "lesionSite": "Dorsal hands and finger joints",
   "hiddenDiagnosis": "Dermatomyositis",
-  "urgency": "critical",
+  "urgency": "high",
   "historyAnswers": {
     "Onset and duration": "The change began gradually over several weeks.",
-    "Itch versus pain": "There is mild itch and no disproportionate pain.",
+    "Itch versus pain": "Skin may itch or burn; weakness is more concerning than tenderness.",
     "New medications": "No new medication in the past two months.",
     "Sun exposure and tanning": "Outdoor exposure is intermittent; no tanning bed use.",
     "Personal and family skin cancer history": "No personal skin cancer; family history reviewed.",
@@ -21,13 +21,14 @@
     "Prior treatments": "Over-the-counter moisturizer gave little relief.",
     "Occupation and hobbies": "No clear occupational exposure identified.",
     "Pregnancy and contraception status": "Pregnancy possibility and goals should be reviewed before teratogenic therapies.",
-    "Systemic symptoms": "No fever or systemic symptoms.",
-    "Focused clue": "heliotrope change, Gottron papules, proximal weakness, and photosensitive eruption"
+    "Systemic symptoms": "Assess strength, swallowing, and respiratory symptoms; screen for associated malignancy as clinically indicated.",
+    "Focused clue": "Ask about progressive proximal muscle weakness, dysphagia, dyspnea, and photosensitive rash.",
+    "Muscle weakness and systemic symptoms": "Difficulty rising from a chair or lifting the arms overhead has progressed over several months."
   },
   "examFindings": {
-    "General appearance": "Subtle heliotrope discoloration; ask about proximal weakness and swallowing.",
-    "Focused lesion exam": "Heliotrope change, gottron papules, proximal weakness, and photosensitive eruption.",
-    "Full skin exam": "No additional abnormality found on this maneuver.",
+    "General appearance": "Fictional teaching patient; assess vital signs and overall appearance in real practice.",
+    "Focused lesion exam": "Violaceous, scaly papules and plaques centered over the metacarpophalangeal and interphalangeal joints, consistent with Gottron papules/sign.",
+    "Full skin exam": "Assess distribution and extent beyond the pictured site; assess strength, swallowing, and respiratory symptoms; screen for associated malignancy as clinically indicated.",
     "Mucosal exam": "No additional abnormality found on this maneuver.",
     "Nails and hair": "No additional abnormality found on this maneuver.",
     "Lymph nodes": "No additional abnormality found on this maneuver.",
@@ -36,19 +37,21 @@
     "Dermoscopy": "No additional abnormality found on this maneuver."
   },
   "image": {
-    "file": "dermatomyositis.svg",
-    "status": "needs_image",
-    "alt": "Original vector placeholder, not a clinical photograph: a generic abstract lesion swatch, site hands, eyelids, and upper chest. No patient or diagnosis is depicted."
+    "file": "dermatomyositis.jpg",
+    "status": "real",
+    "alt": "Independent teaching photograph, not the fictional patient’s record: Violaceous, scaly papules and plaques centered over the metacarpophalangeal and interphalangeal joints, consistent with Gottron papules/sign.",
+    "credit": "User-supplied teaching image; permission confirmed by the user."
   },
-  "imageStatus": "needs_image",
+  "imageStatus": "real",
   "correctMorphology": [
     "Papule",
-    "Papule"
+    "Plaque",
+    "Scale"
   ],
   "acceptableDifferential": [
     "Dermatomyositis",
     "eczema",
-    "contact dermatitis"
+    "psoriasis"
   ],
   "tests": [
     {
@@ -115,7 +118,7 @@
     }
   ],
   "idealDisposition": "refer",
-  "teachingPearl": "assess muscle and swallowing/respiratory symptoms; coordinated malignancy and myositis evaluation Reassess if the course changes or red flags emerge.",
+  "teachingPearl": "Gottron papules are a characteristic cutaneous clue; evaluate muscle and pulmonary involvement and arrange specialist assessment.",
   "traps": [
     "Anchoring on morphology without asking about timing",
     "Using a potent topical steroid on thin or intertriginous skin",
@@ -123,5 +126,5 @@
     "Ordering biopsy without a decision-changing question"
   ],
   "needsReview": true,
-  "urgentReason": "Time-sensitive pattern; emergency escalation takes priority over office testing."
+  "urgentReason": null
 }

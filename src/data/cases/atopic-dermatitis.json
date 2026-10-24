@@ -7,27 +7,27 @@
     "pregnancyRelevant": true,
     "context": "general"
   },
-  "chiefComplaint": "Recurring itchy rash in the elbow creases",
-  "lesionSite": "flexural elbows",
+  "chiefComplaint": "Chronic itchy patches keep flaring in the elbow creases.",
+  "lesionSite": "Flexural skin",
   "hiddenDiagnosis": "Atopic dermatitis",
   "urgency": "routine",
   "historyAnswers": {
     "Onset and duration": "Recurrent, itchy flexural rash since infancy with recent flares over the past several weeks.",
-    "Itch versus pain": "Itching is prominent; there is no meaningful pain.",
+    "Itch versus pain": "Itch is prominent, often worse at night; no disproportionate pain.",
     "New medications": "No new medication in the past two months.",
     "Sun exposure and tanning": "Outdoor exposure is intermittent; no tanning bed use.",
     "Personal and family skin cancer history": "No personal skin cancer; family history reviewed.",
     "Immunosuppression": "No known immunosuppression.",
-    "Prior treatments": "Over-the-counter moisturizer gave little relief.",
+    "Prior treatments": "Frequent fragranced washes worsen dryness; emollient use has been inconsistent.",
     "Occupation and hobbies": "No clear occupational exposure identified.",
     "Pregnancy and contraception status": "Pregnancy possibility and goals should be reviewed before teratogenic therapies.",
-    "Systemic symptoms": "No fever or systemic symptoms.",
-    "Focused clue": "itchy flexural plaques with chronic relapsing course"
+    "Systemic symptoms": "No fever, honey-colored crust, or systemic illness.",
+    "Focused clue": "The itchy eruption began in childhood and recurs in flexural areas; ask about asthma, allergic rhinitis, and skin-care routines."
   },
   "examFindings": {
-    "General appearance": "Alert and conversant; vital signs must be checked in real practice.",
-    "Focused lesion exam": "Itchy flexural plaques with chronic relapsing course.",
-    "Full skin exam": "No additional abnormality found on this maneuver.",
+    "General appearance": "Fictional teaching patient; assess vital signs and overall appearance in real practice.",
+    "Focused lesion exam": "Chronic erythematous, lichenified eczematous plaques with xerosis and excoriations in flexural areas.",
+    "Full skin exam": "Assess distribution and extent beyond the pictured site; no fever, honey-colored crust, or systemic illness.",
     "Mucosal exam": "No additional abnormality found on this maneuver.",
     "Nails and hair": "No additional abnormality found on this maneuver.",
     "Lymph nodes": "No additional abnormality found on this maneuver.",
@@ -36,20 +36,20 @@
     "Dermoscopy": "No additional abnormality found on this maneuver."
   },
   "image": {
-    "file": "atopic-dermatitis.webp",
+    "file": "atopic-dermatitis.avif",
     "status": "real",
-    "alt": "Cropped close-up of an erythematous patch on a cheek, from an independently sourced Wikimedia Commons teaching photograph. Facial landmarks are outside the crop; this is not the fictional patient\u2019s record.",
-    "credit": "Photo: Dr.Gandikota Raghurama Rao \u00b7 CC BY 4.0"
+    "alt": "Independent supplied teaching photograph labeled atopic dermatitis; not a record of the fictional patient. Visible morphology is not described because it could not be verified during this update.",
+    "credit": "User-supplied teaching image; permission confirmed by the user."
   },
   "imageStatus": "real",
   "correctMorphology": [
     "Plaque",
-    "Plaque"
+    "Scale"
   ],
   "acceptableDifferential": [
     "Atopic dermatitis",
     "eczema",
-    "contact dermatitis"
+    "psoriasis"
   ],
   "tests": [
     {
@@ -116,7 +116,7 @@
     }
   ],
   "idealDisposition": "discharge",
-  "teachingPearl": "emollients and site-appropriate topical corticosteroid; avoid prolonged potent steroid on folds Reassess if the course changes or red flags emerge.",
+  "teachingPearl": "Chronic pruritic flexural eczema is managed with barrier care and site-appropriate anti-inflammatory treatment; look for infection or treatment complications.",
   "traps": [
     "Anchoring on morphology without asking about timing",
     "Using a potent topical steroid on thin or intertriginous skin",

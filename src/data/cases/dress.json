@@ -7,27 +7,27 @@
     "pregnancyRelevant": false,
     "context": "general"
   },
-  "chiefComplaint": "A new rash, facial swelling, and fever",
-  "lesionSite": "face and trunk",
+  "chiefComplaint": "A widespread rash and fever began several weeks after a new medication.",
+  "lesionSite": "Upper trunk and proximal limbs",
   "hiddenDiagnosis": "DRESS",
   "urgency": "critical",
   "historyAnswers": {
     "Onset and duration": "A new eruption began 9 days after starting a medication.",
-    "Itch versus pain": "There is mild itch and no disproportionate pain.",
-    "New medications": "A recently started medication is a potential culprit; reconcile exact timing.",
+    "Itch versus pain": "Itchy; check for facial edema, skin pain, and mucosal involvement.",
+    "New medications": "A new medication was started about five weeks before the eruption; medication review and immediate culprit-drug withdrawal are essential.",
     "Sun exposure and tanning": "Outdoor exposure is intermittent; no tanning bed use.",
     "Personal and family skin cancer history": "No personal skin cancer; family history reviewed.",
     "Immunosuppression": "No known immunosuppression.",
     "Prior treatments": "Over-the-counter moisturizer gave little relief.",
     "Occupation and hobbies": "No clear occupational exposure identified.",
     "Pregnancy and contraception status": "Pregnancy possibility and goals should be reviewed before teratogenic therapies.",
-    "Systemic symptoms": "Fever and malaise are present; this is an emergency.",
-    "Focused clue": "new medication, facial edema, morbilliform eruption, fever, and systemic symptoms"
+    "Systemic symptoms": "Fever and malaise are present; assess CBC with differential, liver and kidney injury, and other organ involvement.",
+    "Focused clue": "The eruption began several weeks after starting a high-risk medication; clarify the exact drug, start date, and all recent exposures."
   },
   "examFindings": {
-    "General appearance": "Alert and conversant; vital signs must be checked in real practice.",
-    "Focused lesion exam": "New medication, facial edema, morbilliform eruption, fever, and systemic symptoms.",
-    "Full skin exam": "No additional abnormality found on this maneuver.",
+    "General appearance": "Fictional teaching patient; assess vital signs and overall appearance in real practice.",
+    "Focused lesion exam": "Confluent erythematous macules and papules across the upper trunk with facial involvement in the supplied image.",
+    "Full skin exam": "Assess distribution and extent beyond the pictured site; fever and malaise are present; assess cbc with differential, liver and kidney injury, and other organ involvement.",
     "Mucosal exam": "No additional abnormality found on this maneuver.",
     "Nails and hair": "No additional abnormality found on this maneuver.",
     "Lymph nodes": "No additional abnormality found on this maneuver.",
@@ -36,19 +36,20 @@
     "Dermoscopy": "No additional abnormality found on this maneuver."
   },
   "image": {
-    "file": "dress.svg",
-    "status": "needs_image",
-    "alt": "Original vector placeholder, not a clinical photograph: a generic abstract lesion swatch, site face and trunk. No patient or diagnosis is depicted."
+    "file": "dress.webp",
+    "status": "real",
+    "alt": "Independent teaching photograph, not the fictional patient’s record: Confluent erythematous macules and papules across the upper trunk with facial involvement in the supplied image.",
+    "credit": "User-supplied teaching image; permission confirmed by the user."
   },
-  "imageStatus": "needs_image",
+  "imageStatus": "real",
   "correctMorphology": [
-    "Patch",
-    "Patch"
+    "Macule",
+    "Papule"
   ],
   "acceptableDifferential": [
     "DRESS",
-    "eczema",
-    "contact dermatitis"
+    "morbilliform drug eruption",
+    "viral exanthem"
   ],
   "tests": [
     {
@@ -115,7 +116,7 @@
     }
   ],
   "idealDisposition": "ED",
-  "teachingPearl": "urgent hospital evaluation and organ injury labs; coordinate culprit drug discontinuation Reassess if the course changes or red flags emerge.",
+  "teachingPearl": "DRESS can cause delayed, life-threatening visceral injury; stop the culprit drug and urgently assess for organ involvement.",
   "traps": [
     "Anchoring on morphology without asking about timing",
     "Using a potent topical steroid on thin or intertriginous skin",

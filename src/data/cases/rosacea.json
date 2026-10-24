@@ -7,27 +7,27 @@
     "pregnancyRelevant": true,
     "context": "general"
   },
-  "chiefComplaint": "Facial flushing and small bumps",
-  "lesionSite": "central face",
+  "chiefComplaint": "Recurrent facial flushing is now accompanied by persistent redness and bumps.",
+  "lesionSite": "Central face",
   "hiddenDiagnosis": "Papulopustular rosacea",
   "urgency": "routine",
   "historyAnswers": {
     "Onset and duration": "The change began gradually over several weeks.",
-    "Itch versus pain": "There is mild itch and no disproportionate pain.",
+    "Itch versus pain": "Burning or stinging with skincare products; usually not deep pain.",
     "New medications": "No new medication in the past two months.",
     "Sun exposure and tanning": "Outdoor exposure is intermittent; no tanning bed use.",
     "Personal and family skin cancer history": "No personal skin cancer; family history reviewed.",
     "Immunosuppression": "No known immunosuppression.",
-    "Prior treatments": "Over-the-counter moisturizer gave little relief.",
+    "Prior treatments": "Several irritating over-the-counter products worsened burning and redness.",
     "Occupation and hobbies": "No clear occupational exposure identified.",
     "Pregnancy and contraception status": "Pregnancy possibility and goals should be reviewed before teratogenic therapies.",
-    "Systemic symptoms": "No fever or systemic symptoms.",
-    "Focused clue": "central facial erythema and papules without comedones"
+    "Systemic symptoms": "Ask about eye grittiness, photophobia, or eyelid inflammation.",
+    "Focused clue": "Flushing is triggered by heat and hot drinks; no comedones are reported."
   },
   "examFindings": {
-    "General appearance": "Alert and conversant; vital signs must be checked in real practice.",
-    "Focused lesion exam": "Central facial erythema and papules without comedones.",
-    "Full skin exam": "No additional abnormality found on this maneuver.",
+    "General appearance": "Fictional teaching patient; assess vital signs and overall appearance in real practice.",
+    "Focused lesion exam": "Central facial erythema with fine telangiectasias and scattered inflammatory papules on the cheeks and nose.",
+    "Full skin exam": "Assess distribution and extent beyond the pictured site; ask about eye grittiness, photophobia, or eyelid inflammation.",
     "Mucosal exam": "No additional abnormality found on this maneuver.",
     "Nails and hair": "No additional abnormality found on this maneuver.",
     "Lymph nodes": "No additional abnormality found on this maneuver.",
@@ -36,19 +36,20 @@
     "Dermoscopy": "No additional abnormality found on this maneuver."
   },
   "image": {
-    "file": "rosacea.svg",
-    "status": "needs_image",
-    "alt": "Original vector placeholder, not a clinical photograph: a generic abstract lesion swatch, site central face. No patient or diagnosis is depicted."
+    "file": "rosacea.webp",
+    "status": "real",
+    "alt": "Independent teaching photograph, not the fictional patient’s record: Central facial erythema with fine telangiectasias and scattered inflammatory papules on the cheeks and nose.",
+    "credit": "User-supplied teaching image; permission confirmed by the user."
   },
-  "imageStatus": "needs_image",
+  "imageStatus": "real",
   "correctMorphology": [
     "Papule",
-    "Papule"
+    "Telangiectasia"
   ],
   "acceptableDifferential": [
-    "Papulopustular rosacea",
+    "Rosacea",
     "eczema",
-    "contact dermatitis"
+    "psoriasis"
   ],
   "tests": [
     {
@@ -115,7 +116,7 @@
     }
   ],
   "idealDisposition": "discharge",
-  "teachingPearl": "trigger reduction and topical metronidazole or ivermectin; assess ocular symptoms Reassess if the course changes or red flags emerge.",
+  "teachingPearl": "Central facial flushing, telangiectasia, and papules without comedones support rosacea; assess ocular symptoms and avoid triggers.",
   "traps": [
     "Anchoring on morphology without asking about timing",
     "Using a potent topical steroid on thin or intertriginous skin",

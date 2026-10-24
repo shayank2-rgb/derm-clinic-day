@@ -7,27 +7,27 @@
     "pregnancyRelevant": true,
     "context": "general"
   },
-  "chiefComplaint": "Recurring painful bumps in the underarms",
-  "lesionSite": "axillae",
+  "chiefComplaint": "Painful lumps in the armpit repeatedly swell, drain, and return.",
+  "lesionSite": "Axilla",
   "hiddenDiagnosis": "Hidradenitis suppurativa",
   "urgency": "routine",
   "historyAnswers": {
     "Onset and duration": "The change began gradually over several weeks.",
-    "Itch versus pain": "There is mild itch and no disproportionate pain.",
+    "Itch versus pain": "Tender during flares; chronic drainage may be malodorous.",
     "New medications": "No new medication in the past two months.",
     "Sun exposure and tanning": "Outdoor exposure is intermittent; no tanning bed use.",
     "Personal and family skin cancer history": "No personal skin cancer; family history reviewed.",
     "Immunosuppression": "No known immunosuppression.",
-    "Prior treatments": "Over-the-counter moisturizer gave little relief.",
+    "Prior treatments": "Prior short antibiotic courses helped only temporarily; ask about procedural care and long-term therapy.",
     "Occupation and hobbies": "No clear occupational exposure identified.",
     "Pregnancy and contraception status": "Pregnancy possibility and goals should be reviewed before teratogenic therapies.",
-    "Systemic symptoms": "No fever or systemic symptoms.",
-    "Focused clue": "recurrent painful nodules and tunnels in intertriginous skin"
+    "Systemic symptoms": "No fever or rapidly spreading erythema today.",
+    "Focused clue": "Similar lesions have recurred in the axillae for years; ask about groin involvement, smoking, and prior drainage."
   },
   "examFindings": {
-    "General appearance": "Alert and conversant; vital signs must be checked in real practice.",
-    "Focused lesion exam": "Recurrent painful nodules and tunnels in intertriginous skin.",
-    "Full skin exam": "No additional abnormality found on this maneuver.",
+    "General appearance": "Fictional teaching patient; assess vital signs and overall appearance in real practice.",
+    "Focused lesion exam": "Recurrent inflammatory nodules with draining tunnels, open comedones, and rope-like scarring in the axilla.",
+    "Full skin exam": "Assess distribution and extent beyond the pictured site; no fever or rapidly spreading erythema today.",
     "Mucosal exam": "No additional abnormality found on this maneuver.",
     "Nails and hair": "No additional abnormality found on this maneuver.",
     "Lymph nodes": "No additional abnormality found on this maneuver.",
@@ -36,19 +36,20 @@
     "Dermoscopy": "No additional abnormality found on this maneuver."
   },
   "image": {
-    "file": "hidradenitis-suppurativa.svg",
-    "status": "needs_image",
-    "alt": "Original vector placeholder, not a clinical photograph: a generic abstract lesion swatch, site axillae. No patient or diagnosis is depicted."
+    "file": "hidradenitis-suppurativa.jpg",
+    "status": "real",
+    "alt": "Independent teaching photograph, not the fictional patient’s record: Recurrent inflammatory nodules with draining tunnels, open comedones, and rope-like scarring in the axilla.",
+    "credit": "User-supplied teaching image; permission confirmed by the user."
   },
-  "imageStatus": "needs_image",
+  "imageStatus": "real",
   "correctMorphology": [
     "Nodule",
-    "Nodule"
+    "Crust"
   ],
   "acceptableDifferential": [
     "Hidradenitis suppurativa",
     "eczema",
-    "contact dermatitis"
+    "psoriasis"
   ],
   "tests": [
     {
@@ -115,7 +116,7 @@
     }
   ],
   "idealDisposition": "discharge",
-  "teachingPearl": "stage disease, discuss smoking/weight without blame, topical or systemic plan by severity Reassess if the course changes or red flags emerge.",
+  "teachingPearl": "Recurrent nodules and tunnels in intertriginous sites indicate hidradenitis; stage disease and plan longitudinal care rather than repeated incision alone.",
   "traps": [
     "Anchoring on morphology without asking about timing",
     "Using a potent topical steroid on thin or intertriginous skin",
