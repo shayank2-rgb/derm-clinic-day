@@ -1,0 +1,3 @@
+import {describe,it,expect} from 'vitest';
+import {ClinicClock} from '../src/engine/clock';
+describe('ClinicClock',()=>{it('starts at 08:00 and advances with a bounded end',()=>{const c=new ClinicClock();expect(c.label).toBe('08:00');c.advance(60);expect(c.label).toBe('09:00');c.advance(600);expect(c.label).toBe('12:00');expect(c.ended).toBe(true)});it('skips lunch during full day and ends at 17:00',()=>{const c=new ClinicClock(true);c.advance(240);expect(c.label).toBe('13:00');c.advance(240);expect(c.label).toBe('17:00');expect(c.ended).toBe(true)});it('pause toggle and skip are explicit',()=>{const c=new ClinicClock();expect(c.paused).toBe(true);c.toggle();expect(c.paused).toBe(false);c.skip();expect(c.minute).toBe(495)})});
