@@ -1,0 +1,1 @@
+Each item in `public/images/credits.json` has: `file`, `caseId`, `sourceSite`, `directPageUrl`, `title`, `authorOrCredit`, `licenseName`, `licenseUrl`, `dateAccessed`, `diagnosisAsStated`, `fitzpatrickType` (nullable), and `modificationsMade`. Original placeholders are credited as project vector art and are labeled as schematic rather than sourced clinical photographs.
