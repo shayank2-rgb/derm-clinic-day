@@ -1,0 +1,127 @@
+{
+  "id": "pemphigus-vulgaris",
+  "category": "urgent",
+  "demographics": {
+    "age": 55,
+    "sex": "F",
+    "pregnancyRelevant": false,
+    "context": "general"
+  },
+  "chiefComplaint": "Painful mouth sores and fragile blisters",
+  "lesionSite": "oral mucosa and trunk",
+  "hiddenDiagnosis": "Pemphigus vulgaris",
+  "urgency": "critical",
+  "historyAnswers": {
+    "Onset and duration": "The change began gradually over several weeks.",
+    "Itch versus pain": "There is mild itch and no disproportionate pain.",
+    "New medications": "No new medication in the past two months.",
+    "Sun exposure and tanning": "Outdoor exposure is intermittent; no tanning bed use.",
+    "Personal and family skin cancer history": "No personal skin cancer; family history reviewed.",
+    "Immunosuppression": "No known immunosuppression.",
+    "Prior treatments": "Over-the-counter moisturizer gave little relief.",
+    "Occupation and hobbies": "No clear occupational exposure identified.",
+    "Pregnancy and contraception status": "Pregnancy possibility and goals should be reviewed before teratogenic therapies.",
+    "Systemic symptoms": "No fever or systemic symptoms.",
+    "Focused clue": "flaccid bullae and painful oral erosions with positive Nikolsky sign"
+  },
+  "examFindings": {
+    "General appearance": "Alert and conversant; vital signs must be checked in real practice.",
+    "Focused lesion exam": "Flaccid bullae and painful oral erosions with positive nikolsky sign.",
+    "Full skin exam": "No additional abnormality found on this maneuver.",
+    "Mucosal exam": "Painful oral erosions are present.",
+    "Nails and hair": "No additional abnormality found on this maneuver.",
+    "Lymph nodes": "No additional abnormality found on this maneuver.",
+    "Nikolsky sign": "Positive at lesion edge.",
+    "Wood lamp": "No additional abnormality found on this maneuver.",
+    "Dermoscopy": "No additional abnormality found on this maneuver."
+  },
+  "image": {
+    "file": "pemphigus-vulgaris.svg",
+    "status": "needs_image",
+    "alt": "Original vector placeholder, not a clinical photograph: a generic abstract lesion swatch, site oral mucosa and trunk. No patient or diagnosis is depicted."
+  },
+  "imageStatus": "needs_image",
+  "correctMorphology": [
+    "Bulla",
+    "Bulla"
+  ],
+  "acceptableDifferential": [
+    "Pemphigus vulgaris",
+    "eczema",
+    "contact dermatitis"
+  ],
+  "tests": [
+    {
+      "name": "Dermoscopy",
+      "result": "No additional abnormality found on this maneuver.",
+      "minutes": 4,
+      "indicated": false
+    },
+    {
+      "name": "Punch biopsy with H&E",
+      "result": "Histopathology supports the hidden diagnosis when properly sampled.",
+      "minutes": 18,
+      "indicated": true
+    },
+    {
+      "name": "KOH prep",
+      "result": "No fungal elements seen.",
+      "minutes": 8,
+      "indicated": false
+    },
+    {
+      "name": "CBC and CMP",
+      "result": "Results should be interpreted with clinical context.",
+      "minutes": 12,
+      "indicated": false
+    },
+    {
+      "name": "Photo documentation",
+      "result": "Baseline clinical photograph recorded with consent.",
+      "minutes": 3,
+      "indicated": true
+    }
+  ],
+  "acceptableTreatments": [
+    {
+      "name": "urgent dermatology referral + biopsy with DIF",
+      "reason": "biopsy lesional and perilesional skin for H&E and DIF; urgent specialist care"
+    }
+  ],
+  "unacceptableTreatments": [
+    {
+      "name": "High-potency topical corticosteroid on face or folds",
+      "reason": "Site-related atrophy risk; choose site-appropriate treatment."
+    },
+    {
+      "name": "Systemic corticosteroid for an undifferentiated rash",
+      "reason": "May obscure diagnosis and worsen some infections."
+    },
+    {
+      "name": "Methotrexate without baseline assessment",
+      "reason": "Requires screening, labs, pregnancy precautions, and specialist oversight."
+    },
+    {
+      "name": "Biologic therapy without infection screening",
+      "reason": "Requires appropriate screening and specialist plan."
+    },
+    {
+      "name": "Spironolactone without pregnancy and contraindication review",
+      "reason": "Review pregnancy goals, relevant contraindications, and monitoring before use."
+    },
+    {
+      "name": "Isotretinoin without pregnancy prevention steps when applicable",
+      "reason": "Major teratogenic risk; follow current prescribing safeguards."
+    }
+  ],
+  "idealDisposition": "refer",
+  "teachingPearl": "biopsy lesional and perilesional skin for H&E and DIF; urgent specialist care Reassess if the course changes or red flags emerge.",
+  "traps": [
+    "Anchoring on morphology without asking about timing",
+    "Using a potent topical steroid on thin or intertriginous skin",
+    "Missing medication timing or mucosal symptoms",
+    "Ordering biopsy without a decision-changing question"
+  ],
+  "needsReview": true,
+  "urgentReason": "Time-sensitive pattern; emergency escalation takes priority over office testing."
+}

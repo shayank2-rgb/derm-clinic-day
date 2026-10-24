@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/shayank2-rgb/derm-clinic-day/blob/main/src/data/cases/schema.json",
+  "title": "Derm Clinic Day case",
+  "type": "object",
+  "required": ["id", "demographics", "chiefComplaint", "lesionSite", "hiddenDiagnosis", "urgency", "historyAnswers", "examFindings", "image", "imageStatus", "correctMorphology", "acceptableDifferential", "tests", "acceptableTreatments", "unacceptableTreatments", "idealDisposition", "teachingPearl", "traps", "needsReview"],
+  "properties": {
+    "id": {"type":"string","pattern":"^[a-z0-9-]+$"},
+    "category": {"enum":["common","cancer","urgent"]},
+    "demographics": {"type":"object","required":["age","sex","pregnancyRelevant","context"],"properties":{"age":{"type":"integer","minimum":0},"sex":{"type":"string"},"pregnancyRelevant":{"type":"boolean"},"context":{"type":"string"}},"additionalProperties":true},
+    "chiefComplaint":{"type":"string"},"lesionSite":{"type":"string"},"hiddenDiagnosis":{"type":"string"},"urgency":{"enum":["routine","high","critical"]},
+    "historyAnswers":{"type":"object","additionalProperties":{"type":"string"}},"examFindings":{"type":"object","additionalProperties":{"type":"string"}},
+    "imageStatus":{"enum":["real","needs_image"]},
+    "image":{"type":"object","required":["file","status","alt"],"properties":{"file":{"type":"string"},"status":{"enum":["real","needs_image"]},"alt":{"type":"string","minLength":10}}},
+    "correctMorphology":{"type":"array","items":{"type":"string"}},"acceptableDifferential":{"type":"array","minItems":1,"items":{"type":"string"}},
+    "tests":{"type":"array","items":{"type":"object","required":["name","result","minutes","indicated"],"properties":{"name":{"type":"string"},"result":{"type":"string"},"minutes":{"type":"number","minimum":0},"indicated":{"type":"boolean"}}}},
+    "acceptableTreatments":{"type":"array","items":{"type":"object","required":["name","reason"],"properties":{"name":{"type":"string"},"reason":{"type":"string"}}}},"unacceptableTreatments":{"type":"array","items":{"type":"object","required":["name","reason"],"properties":{"name":{"type":"string"},"reason":{"type":"string"}}}},
+    "idealDisposition":{"type":"string"},"teachingPearl":{"type":"string"},"traps":{"type":"array","items":{"type":"string"}},"needsReview":{"type":"boolean"},"urgentReason":{"type":["string","null"]}
+  },
+  "additionalProperties":true
+}

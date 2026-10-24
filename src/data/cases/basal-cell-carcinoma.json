@@ -1,0 +1,128 @@
+{
+  "id": "basal-cell-carcinoma",
+  "category": "cancer",
+  "demographics": {
+    "age": 63,
+    "sex": "F",
+    "pregnancyRelevant": false,
+    "context": "general"
+  },
+  "chiefComplaint": "A slowly enlarging spot that sometimes bleeds",
+  "lesionSite": "cheek",
+  "hiddenDiagnosis": "Basal cell carcinoma",
+  "urgency": "high",
+  "historyAnswers": {
+    "Onset and duration": "The change began gradually over several weeks.",
+    "Itch versus pain": "There is mild itch and no disproportionate pain.",
+    "New medications": "No new medication in the past two months.",
+    "Sun exposure and tanning": "Outdoor exposure is intermittent; no tanning bed use.",
+    "Personal and family skin cancer history": "No personal skin cancer; family history reviewed.",
+    "Immunosuppression": "No known immunosuppression.",
+    "Prior treatments": "Over-the-counter moisturizer gave little relief.",
+    "Occupation and hobbies": "No clear occupational exposure identified.",
+    "Pregnancy and contraception status": "Pregnancy possibility and goals should be reviewed before teratogenic therapies.",
+    "Systemic symptoms": "No fever or systemic symptoms.",
+    "Focused clue": "slow-growing pearly papule with arborizing vessels and focal ulceration"
+  },
+  "examFindings": {
+    "General appearance": "Alert and conversant; vital signs must be checked in real practice.",
+    "Focused lesion exam": "Slow-growing pearly papule with arborizing vessels and focal ulceration.",
+    "Full skin exam": "No additional abnormality found on this maneuver.",
+    "Mucosal exam": "No additional abnormality found on this maneuver.",
+    "Nails and hair": "No additional abnormality found on this maneuver.",
+    "Lymph nodes": "No palpable regional lymphadenopathy; assess by site and risk.",
+    "Nikolsky sign": "No additional abnormality found on this maneuver.",
+    "Wood lamp": "No additional abnormality found on this maneuver.",
+    "Dermoscopy": "No additional abnormality found on this maneuver."
+  },
+  "image": {
+    "file": "basal-cell-carcinoma.webp",
+    "status": "real",
+    "alt": "Tightly cropped close-up of a small pearly papule with fine surface vessels on cheek skin, from an independently sourced Wikimedia Commons teaching photograph. Eye and facial landmarks are outside the crop; this is not the fictional patient\u2019s record.",
+    "credit": "Photo: SkarmoutsosV \u00b7 CC BY-SA 4.0"
+  },
+  "imageStatus": "real",
+  "correctMorphology": [
+    "Papule",
+    "Papule"
+  ],
+  "acceptableDifferential": [
+    "Basal cell carcinoma",
+    "melanoma",
+    "pigmented nevus"
+  ],
+  "tests": [
+    {
+      "name": "Dermoscopy",
+      "result": "No additional abnormality found on this maneuver.",
+      "minutes": 4,
+      "indicated": true
+    },
+    {
+      "name": "Punch biopsy with H&E",
+      "result": "Histopathology supports the hidden diagnosis when properly sampled.",
+      "minutes": 18,
+      "indicated": true
+    },
+    {
+      "name": "KOH prep",
+      "result": "No fungal elements seen.",
+      "minutes": 8,
+      "indicated": false
+    },
+    {
+      "name": "CBC and CMP",
+      "result": "Results should be interpreted with clinical context.",
+      "minutes": 12,
+      "indicated": false
+    },
+    {
+      "name": "Photo documentation",
+      "result": "Baseline clinical photograph recorded with consent.",
+      "minutes": 3,
+      "indicated": true
+    }
+  ],
+  "acceptableTreatments": [
+    {
+      "name": "biopsy then Mohs or excision by risk",
+      "reason": "biopsy then definitive surgery; prioritize high-risk sites"
+    }
+  ],
+  "unacceptableTreatments": [
+    {
+      "name": "High-potency topical corticosteroid on face or folds",
+      "reason": "Site-related atrophy risk; choose site-appropriate treatment."
+    },
+    {
+      "name": "Systemic corticosteroid for an undifferentiated rash",
+      "reason": "May obscure diagnosis and worsen some infections."
+    },
+    {
+      "name": "Methotrexate without baseline assessment",
+      "reason": "Requires screening, labs, pregnancy precautions, and specialist oversight."
+    },
+    {
+      "name": "Biologic therapy without infection screening",
+      "reason": "Requires appropriate screening and specialist plan."
+    },
+    {
+      "name": "Spironolactone without pregnancy and contraindication review",
+      "reason": "Review pregnancy goals, relevant contraindications, and monitoring before use."
+    },
+    {
+      "name": "Isotretinoin without pregnancy prevention steps when applicable",
+      "reason": "Major teratogenic risk; follow current prescribing safeguards."
+    }
+  ],
+  "idealDisposition": "refer",
+  "teachingPearl": "biopsy then definitive surgery; prioritize high-risk sites Reassess if the course changes or red flags emerge.",
+  "traps": [
+    "Anchoring on morphology without asking about timing",
+    "Using a potent topical steroid on thin or intertriginous skin",
+    "Missing medication timing or mucosal symptoms",
+    "Ordering biopsy without a decision-changing question"
+  ],
+  "needsReview": true,
+  "urgentReason": null
+}
